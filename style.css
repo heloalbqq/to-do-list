@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(45deg, #030d99, #1322F0, #1368F0, #13F0A1, #13F0EC) no-repeat;
+    height: 95.3vh;
+    width: 100wh;
+}
+
+#div1 {
+    text-align: center;
+}
+
+#div2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 60%;
+   left: 50%;
+}
