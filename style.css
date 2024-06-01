@@ -8,6 +8,8 @@ body {
 
 #div1 {
     text-align: center;
+    color: white;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.384);
 }
 
 #div2 {
@@ -20,4 +22,17 @@ body {
    transform: translate(-50%, -50%);
    top: 60%;
    left: 50%;
+}
+
+#lista {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+#search {
+    color: rgb(0, 0, 0);
+    background-color: #4c00ff6e;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.39);
 }

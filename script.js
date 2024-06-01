@@ -1,12 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let input = document.getElementById('lista');
-    let lista = document.getElementById('item');
+let input = document.getElementById('lista')
+let item = document.getElementById('item')
+let itens = []
+let tab = document.getElementById('div2')
 
-    input.addEventListener('keydown', (event) => {
-        if(event.value.length == '' ) {
-            alert('[ERRO] Adicione algum item')
-        } else if (event.key === 'Enter') {
-            alert('ok')
-        }
-    })
-})
+function pesquisar() {
+    if(input.value.length == 0) {
+        alert('[ERRO] Adicione um item.')
+    } else {
+        
+        let i = document.createElement('li')
+        i.textContent = `${input.value}`
+        i.value = `tab${input}`
+        tab.appendChild(i)
+        input.value = ''
+        input.focus()
+
+    }
+
+}
